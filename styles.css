@@ -1,0 +1,224 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  margin: 0;
+  padding: 0;
+/*  background-color: #FFAA55;*/
+  color: #808080;
+  font-size: 15px;
+  line-height: 2;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color:#292929;
+  text-decoration: none;
+}
+
+a:visited{
+  color:aquamarine;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+/* header
+--------------------------------------------------*/
+.logo {
+  text-align: center;
+  height: 150;
+  margin: 10px auto;
+}
+
+#gnav ul{
+  display:flex;
+  justify-content: center;
+}
+
+#gnav ul li{
+  margin: 0 10px;
+}
+/* header
+--------------------------------------------------*/
+
+
+/* about
+--------------------------------------------------*/
+#about {
+  text-align: center;
+  margin: 50 auto;
+
+}
+
+#about .imgprofile{
+  text-align: center;
+  margin: 10 30 0 0;
+}
+
+
+/* about
+--------------------------------------------------*/
+
+
+
+/* works
+--------------------------------------------------*/
+
+#works{
+  text-align: center;
+  margin-bottom: 50px;
+  width: 960px;
+  height: 1000px;
+  padding-left: 180px;
+}
+
+#works .card-image{
+  padding-left: 75px;
+}
+
+#works .card-caption{
+  padding-left: 75px;
+}
+
+.card{
+  float: left;
+}
+
+/* works
+--------------------------------------------------*/
+#previousjob{
+  text-align: center;
+  width: 960px;
+  height: 600px;
+  padding-left: 180px;
+  margin-bottom: 20px;
+}
+#previousjob .card-image{
+  padding-left: 75px;
+}
+
+#previousjob .card-caption{
+  padding-left: 75px;
+}
+
+#previousjob .card-caption-ex{
+  font-size: 10px;
+}
+.card{
+  float: left;
+}
+/* skill
+--------------------------------------------------*/
+#skill{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+/* skill
+--------------------------------------------------*/
+
+/* contact
+--------------------------------------------------*/
+
+#contact{
+  text-align: center;
+}
+
+/* contact
+--------------------------------------------------*/
+
+
+/*--------------------------------
+ Footer
+---------------------------------*/
+
+#footer {
+  background-color: #1b1464;
+}
+
+#footer .inner {
+  padding: 30px;
+}
+
+#footer .footer-link ul {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+}
+
+#footer .footer-link li {
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+#footer .footer-link li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#footer .copyright {
+  font-size: 10px;
+  color: #8c8c8c;
+  text-align: center;
+}
+
+
+/*レスポンシブデザイン*/
+@media screen and(max-width:600px){
+  /*画面サイズが600px以下の場合に適用*/
+
+#gnav ul{
+  text-align: center;
+}
+
+#gnav ul li {
+  margin: 0 10px;
+}
+
+#works{
+  text-align: center;
+  margin-bottom: 50px;
+  padding-left: 20px;
+}
+
+#works .card-image{
+  padding-left: 20px;
+}
+
+#works .card-caption{
+  padding-left: 20px;
+}
+
+.card{
+  float: left;
+}
